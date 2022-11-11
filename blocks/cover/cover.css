@@ -1,0 +1,42 @@
+.cover {
+  max-width: 1184px;
+  min-height: 740px;
+  color: #FFFFFF;
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width:1060px) {
+  .cover {
+    min-height: 540px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width:850) {
+  .cover {
+    min-height: 550px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .cover {
+    min-height: 320px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cover {
+    min-height: 200px;
+  }
+}

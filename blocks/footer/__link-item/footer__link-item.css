@@ -1,0 +1,15 @@
+.footer__link-item {
+  display: inline;
+  margin-right: 18px;
+}
+
+@media screen and (max-width:675px){
+  .footer__link-item {
+    display: block;
+    padding-bottom: 32px;
+  }
+  .footer__link:last-of-type {
+    padding: 0;
+  }
+}
+
