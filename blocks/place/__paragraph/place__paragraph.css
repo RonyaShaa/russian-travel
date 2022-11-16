@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29px;
 }
 
 .place__paragraph:first-of-type {
@@ -12,7 +12,6 @@
 
 @media screen and (max-width:1024px){
   .place__paragraph{
-    font-size: 16px;
     margin: 27px 0 0;
   }
 }
@@ -21,12 +20,12 @@
   .place__paragraph{
     font-size: 16px;
     margin: 25px 0 0;
+    line-height: 26px;
   }
 }
 
 @media screen and (max-width:320px){
   .place__paragraph{
-    font-size: 16px;
-    margin: 25px 0 0;
+    max-width: 288px;
   }
 }

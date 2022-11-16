@@ -1,14 +1,15 @@
 .footer__link-item {
-  display: inline;
-  margin-right: 18px;
+  display : inline-block;
+  margin-right: 13.5px;
 }
 
 @media screen and (max-width:675px){
   .footer__link-item {
     display: block;
     padding-bottom: 32px;
+    margin: 0;
   }
-  .footer__link:last-of-type {
+  .footer__link-item:last-of-type {
     padding: 0;
   }
 }
