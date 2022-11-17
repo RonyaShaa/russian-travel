@@ -1,4 +1,5 @@
 .place__link {
+  width: fit-content;
   color: #FFFFFF;
   font-style: normal;
   font-weight: 400;

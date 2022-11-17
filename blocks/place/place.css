@@ -14,7 +14,7 @@
   margin: 0;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1279px){
   .place {
     grid-template-columns: minmax(440px, 1fr) minmax(min-content, max-content);
     grid-template-rows: minmax(min-content, max-content) minmax(440px, 1fr);
@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width:1023px){
   .place {
     grid-template-columns: minmax(340px, 1fr) minmax(min-content, max-content);
     grid-template-rows: minmax(min-content, max-content) minmax(340px, 1fr);
@@ -36,8 +36,6 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin: 50px 0 0;
-    padding: 0;
-    
+    margin: 50px 0 0;    
   }
 }
